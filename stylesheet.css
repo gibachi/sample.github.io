@@ -1,0 +1,280 @@
+*{
+  box-sizing: border-box;
+}
+header {
+  margin: 65px 150px;
+}
+.site-logo {
+  text-align: center;
+  margin: 0;
+}
+header span {
+  color: #9ACC1F;
+}
+ul {
+  display: flex;
+  padding-left: 300px;
+}
+.site-menu li {
+  list-style: none;
+  color: black;
+  padding: 12px 25px;
+  font-size: 14px;
+}
+.site-menu a:hover {
+  border-bottom: 2px solid black;
+}
+.site-menu {
+
+  margin-top: 80px;
+}
+main {
+  margin: 60px 150px;
+  display: flex;
+}
+.lesson-wrapper {
+  width: 69%;
+}
+.lesson-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+.lessons {
+  margin-right: 20px;
+  border: 2px solid #F1F1F1;
+  width: 50%;
+  height: 370px;
+  cursor: pointer;
+}
+.image {
+  width: 100%;
+}
+.lessons:hover {
+  position: relative;
+  top: -10px;
+}
+.list p {
+  font-size: 18px;
+  padding: 5px 25px 0 25px;
+}
+.list time {
+  font-size: 12px;
+  color: #888888;
+  float: right;
+  margin-top: 37px;
+  margin-right: 20px;
+}
+.menu-wrapper {
+  width: 31%;
+  margin: 0 10px 20px 10px;
+  height: 2500px;
+}
+.word-section {
+  width: 100%;
+  height: 470px;
+  border: 2px solid #EDEDED;
+  text-align: center;
+}
+.word-section h2 {
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  padding: 17px 0;
+}
+.word-section a {
+  text-decoration: none;
+  background-color: #E22255;
+  color: white;
+  padding: 10px 50px;
+  font-size: 14px;
+  border-radius: 100px;
+}
+.word-section a:hover {
+  background-color: rgba(227,104,141,0.9);
+}
+.j-section {
+  width: 100%;
+  height: 500px;
+  border: 2px solid #EDEDED;
+  text-align: center;
+  margin-top: 20px;
+}
+.j-section img {
+  border-radius: 300px;
+  padding-top: 20px;
+  margin-bottom: 8px;
+}
+.j-section h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.sub-name {
+  margin: 5px;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.35);
+}
+.sub-explanation {
+  padding: 0 30px;
+}
+.j-section a {
+  text-decoration: none;
+  color: white;
+  background-color: #AAAAAA;
+  font-size: 10px;
+  padding: 10px 35px;
+  border-radius: 100px;
+}
+.j-section a:hover {
+  background-color: rgba(170,170,170,0.9);
+}
+.color {
+  height: 100px;
+  background-color: #9ACC1F;
+  margin-top: 12px;
+}
+.news-section {
+  width: 100%;
+  height: 480px;
+  border: 2px solid #EDEDED;
+  margin-top: 20px;
+  padding: 30px;
+}
+.news-section h3 {
+  font-size: 18px;
+  border-bottom: 2px solid black;
+  margin-top: 0;
+}
+.sub-news {
+  display: flex;
+  margin-bottom: 10px;
+}
+.sub-news p {
+  font-size: 14px;
+  width: 70%;
+  margin-top: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.sub-news p:hover {
+  color: red;
+}
+select {
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgba(192, 192, 192, 0.15);
+    margin: 0px;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    color: #888;
+    border: none;
+    padding: 10px 210px 10px 10px;
+}
+.category-section {
+  width: 100%;
+  height: 150px;
+  border: 2px solid #EDEDED;
+  padding: 20px;
+  margin-top: 20px;
+}
+.category-section h3 {
+  border-bottom: 2px solid black;
+}
+.tag-section {
+  width: 100%;
+  height: 240px;
+  border: 2px solid #EDEDED;
+  padding: 20px;
+  margin-top: 20px;
+}
+.tag-section h3 {
+  border-bottom: 2px solid black;
+}
+.search-section {
+  width: 100%;
+  height: 160px;
+  border: 2px solid #EDEDED;
+  padding: 20px;
+  margin-top: 20px;
+}
+.search-section h3 {
+  border-bottom: 2px solid black;
+}
+.search-section input[type="search"] {
+  width: 100%;
+  height: 34px;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+}
+footer {
+  background-color: #3b3646;
+  height: 612px;
+  color: white;
+}
+.parent {
+  padding: 40px 100px;
+  display: flex;
+}
+.child p {
+  font-size: 14px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+.footer-logo {
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+.child a {
+  text-decoration: none;
+  color: white;
+  background-color: #e22255;
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin-left: 60px;
+}
+.child {
+  width: 33%;
+  padding: 0 20px 0 0;
+}
+.center a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 11px;
+  padding: 7px 0;
+}
+.center h3 {
+  border-left: 3px solid #9ACC1F;
+  padding-left: 10px;
+  font-size: 15px;
+}
+.center {
+  display: flex;
+}
+.f-right {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.mini {
+  display: flex;
+  margin: 10px 0;
+}
+.mini p {
+  width: 60%;
+  margin-left: 20px;
+  margin-top:  0;
+}
+.child h3 {
+  margin-top: 15px;
+  font-size: 15px;
+  border-left: 3px solid #9ACC1F;
+  padding-left: 10px;
+}
+.post-section h3 {
+  border-left: 3px solid #9ACC1F;
+  padding-left: 10px;
+  font-size: 15px;
+}
